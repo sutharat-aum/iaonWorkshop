@@ -21,32 +21,45 @@
             android:textSize="60sp" />
 
         <EditText
+            android:id="@+id/edDisplay"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="30dp"
-            android:text="Usename" />
+            android:hint="Display Name" />
 
         <EditText
+            android:id="@+id/edUsername"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Password" />
+            android:hint="Username" />
 
         <EditText
+            android:id="@+id/edPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Password Confirm" />
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/edPasswordCon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="Password Confirm"
+            android:inputType="textPassword" />
 
 
     </LinearLayout>
 
     <Button
+        android:id="@+id/btRegister"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
         android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
         android:layout_margin="20dp"
         android:text="register" />
 </RelativeLayout>
