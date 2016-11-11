@@ -21,6 +21,7 @@
             android:textSize="60sp" />
 
         <EditText
+            android:id="@+id/edUserLog"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -28,6 +29,7 @@
             android:hint="Usename" />
 
         <EditText
+            android:id="@+id/edPassLog"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -35,6 +37,7 @@
             android:inputType="textPassword"/>
 
         <Button
+            android:id="@+id/btLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
